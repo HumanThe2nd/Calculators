@@ -1,4 +1,5 @@
 #include <stdio.h>
+// uses both conservation of energy and conservation of momentum
 // givens: m1,v1,m2,v2,t
 // solving for force exerted on each mass during collision elastic
 // J = Δp = mΔv = fΔt
