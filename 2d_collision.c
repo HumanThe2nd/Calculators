@@ -13,6 +13,6 @@ ph = -m1*v1*cos(t1)+m2*v2*cos(t2); // minus due to opposite dir
 pv-=m2*v2f*sin(t2f); // subtract vert momentum of m2 (same dir)
 ph+=m2*v2f*cos(t2f); // add hor momentum of m2 (opposite dir)
 double pt= sqrt(pv*pv+ph*ph); // pythagorean to add components
-double v1f = pt/m1;
-printf("%lf",v1f);
+double v1f = pt/m1; // solve v using p = mv -> v = p/m
+printf("%lf",v1f); // print answer
 }
