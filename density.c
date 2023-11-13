@@ -1,4 +1,6 @@
 // density calculator
+// Givens: diameter of planet ,radius of satellites, their periods
+// Constants: pi, universal gravitional constant
 #include <stdio.h>
 long double t=1000,pi=3.141592653589793238;
 int main() {
