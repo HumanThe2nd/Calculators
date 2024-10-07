@@ -1,0 +1,13 @@
+// Length finder 
+// Author: Dan Shan
+// Date: 2024-10-07
+// solves for length of a string in a pendulum given velocity in km/h & theta in degrees
+#include <stdio.h>
+#include <math.h>
+
+int main(){ 
+    double v=11,theta=38,pi=3.14159265359;
+    v/=3.6; // km/h to m/s
+    theta*=2*pi/360; // convert to radians
+	  printf("%0.2lf",v*v/(9.8*tan(theta)*sin(theta)));
+}
